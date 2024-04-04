@@ -1,0 +1,68 @@
+.main {
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.сatalog__title {
+  max-width: 1300px;
+  width: 100%;
+  margin: 54px auto;
+  font-family: "Inter";
+  font-size: 24px;
+  font-weight: 500;
+  font-style: normal;
+  line-height: normal;
+}
+
+.card__container {
+  margin: 0;
+}
+
+.card {
+  margin: 0;
+  width: 424px;
+  height: 250px;
+  border-radius: 15px;
+  color: #fff;
+  background-color: grey;
+}
+
+.card:first-child, .card:last-child {
+  height: 512px;
+}
+
+.card__title {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.card__text {
+  margin: 0;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.card__action {
+  margin: 0;
+}
+
+.card__action_button {
+  margin: 0;
+  padding: 0 28px;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  height: 45px;
+  color: #fff;
+  background-color: inherit;
+  font-family: "Inter";
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.card__action_img {
+  margin: 0;
+}

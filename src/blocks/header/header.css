@@ -1,0 +1,99 @@
+.header {
+  margin: 0 auto;
+  width: 100%;
+  color: #666666;
+  background-color: #fbfbfb;
+  box-shadow: 0 1px 10px #666666;
+  font-family: 'Inter';
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.header__container_menu {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin: 18px 0;
+  height: 26px;
+  width: 209px;
+}
+
+.header__navigation {
+  display: flex;
+}
+
+.header__navigation_list {
+  margin: 24px 56px 0 0;
+  display: flex;
+  gap: 33px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.header__navigation_item {
+  margin: 0;
+}
+
+.header__navigation_link {
+  text-decoration: none;
+  color: #666666;
+}
+
+.header__button {
+  margin: 12px 0;
+  height: 40px;
+  width: 204px;
+  border-radius: 14px;
+  color: white;
+  background-color: #0b457f;
+  border: none;
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.header__line {
+  width: 100%;
+  height: 1px;
+  background-color: #666666;
+}
+
+.header__container {
+  max-width: 1300px;
+  margin: 12px auto;
+  padding-bottom: 14px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__route {
+  display: flex;
+}
+
+.header__link {
+  display: flex;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0 32px 0 0;
+}
+
+.header__picture {
+  height: 16px;
+  width: 16px;
+  margin: 0 8px 0 0;
+}
+
+.header__schedule {
+  display: flex;
+  font-family: 'Inter';
+  font-size: 12px;
+  font-weight: 400;
+  margin: 0;
+}
