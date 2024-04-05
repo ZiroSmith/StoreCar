@@ -16,33 +16,41 @@ function Header() {
       <div className="header__container_menu">
         <img className="header__logo" src={headerLogo} alt="Логотип" />
         <div className="header__navigation">
-          <ul className="header__navigation_list">
-            <li className="header__navigation_item">
-              <a className="header__navigation_link" href="#">
-                Автомобили в наличии
-              </a>
-            </li>
-            <li className="header__navigation_item">
-              <a className="header__navigation_link" href="#">
-                Спецпредложения
-              </a>
-            </li>
-            <li className="header__navigation_item">
-              <a className="header__navigation_link" href="#">
-                Продать авто
-              </a>
-            </li>
-            <li className="header__navigation_item">
-              <a className="header__navigation_link" href="#">
-                Сервис
-              </a>
-            </li>
-            <li className="header__navigation_item">
-              <a className="header__navigation_link" href="#">
-                Контакты
-              </a>
-            </li>
-          </ul>
+          <div className="header__menu">
+            <input
+              type="checkbox"
+              id="burger_checkbox"
+              className="burger_checkbox"
+            />
+            <label htmlFor="burger_checkbox" className="burger" />
+            <ul className="header__navigation_list">
+              <li className="header__navigation_item">
+                <a href="#" className="header__navigation_link">
+                  Автомобили в наличии
+                </a>
+              </li>
+              <li className="header__navigation_item">
+                <a href="#" className="header__navigation_link">
+                  Спецпредложения
+                </a>
+              </li>
+              <li className="header__navigation_item">
+                <a href="#" className="header__navigation_link">
+                  Продать авто
+                </a>
+              </li>
+              <li className="header__navigation_item">
+                <a href="#" className="header__navigation_link">
+                  Сервис
+                </a>
+              </li>
+              <li className="header__navigation_item">
+                <a href="#" className="header__navigation_link">
+                  Контакты
+                </a>
+              </li>
+            </ul>
+          </div>
           <button className="header__button">Заказать звонок</button>
         </div>
       </div>
