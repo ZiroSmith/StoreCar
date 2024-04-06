@@ -6,7 +6,7 @@ import mobile_Img from "../images/mobile_Img.svg";
 function Main() {
   return (
     <main className="main">
-      <section>
+      <section className="main__container">
         <h1 className="сatalog__title">
           Теперь услуги дилерского центра Вы можете можете получить онлайн!
         </h1>
@@ -21,7 +21,7 @@ function Main() {
             </p>
             <div className="card__action card__action_long">
               <button className="card__button">Записаться</button>
-              <img className="card__img card__img_long" src={Auto1_Img} />
+              <img className="card__img card__img_diag" src={Auto1_Img} />
             </div>
           </div>
           <div className="card">
@@ -35,21 +35,23 @@ function Main() {
             </p>
             <div className="card__action">
               <button className="card__button">Оставить заявку</button>
-              <img className="card__img" src={Auto2_Img} />
+              <img
+                className="card__img card__img_application"
+                src={Auto2_Img}
+              />
             </div>
             <div className="card__background_play" />
           </div>
           <div className="card">
             <h3 className="card__title">Онлайн бронирование</h3>
             <p className="card__text card__text_long">
-              Забронируйте понравившийся
-              <br /> автомобиль без визита в дилерский центр
+              Забронируйте понравившийся автомобиль без визита в дилерский центр
             </p>
             <div className="card__action">
               <button className="card__button card__button_long">
                 Забронировать
               </button>
-              <img className="card__img" src={mobile_Img} />
+              <img className="card__img card__img_viewing" src={mobile_Img} />
             </div>
           </div>
           <div className="card card__large">
@@ -62,7 +64,7 @@ function Main() {
             </p>
             <div className="card__action card__action_long">
               <button className="card__button">Оценить</button>
-              <img className="card__img card__img_long" src={Auto3_Img} />
+              <img className="card__img card__img_estimate" src={Auto3_Img} />
             </div>
             <div className="card__background_find" />
           </div>
